@@ -1,6 +1,6 @@
 BrostleLMS Theme – Changelog
 
-v1.0.0 – [July 2, 2025]
+v1.1.0 – [July 2, 2025]
 - Initial release
 - Responsive homepage design
 - Custom logo support

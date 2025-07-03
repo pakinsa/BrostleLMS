@@ -15,7 +15,10 @@
           if ( function_exists( 'the_custom_logo' ) && has_custom_logo() ) {
             the_custom_logo();
           } else {
-            echo '<a href="' . esc_url( home_url( '/' ) ) . '">BrostleLearn</a>';
+            // Display a neutral placeholder image
+            echo '<a href="' . esc_url( home_url( '/' ) ) . '">
+                    <img src="' . get_template_directory_uri() . '/assets/images/logo-placeholder.png" alt="Site Logo" style="height: 40px;">
+                  </a>';
           }
         ?>
       </div>
